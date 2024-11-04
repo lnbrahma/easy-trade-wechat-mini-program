@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.back {
+    background-color: #a6b1e1;
+    height: 440px;
+}
+.back .between1 {
+    margin: 0 auto;
+    padding-top: 19px;
+    text-align: center;
+    height: 440px;
+    width: 1024px;
+}
+.back .between1 header {
+    height: 46px;
+    font-size: 16px;
+    color: white;
+}
+.back .between1 header li {
+    float: right;
+    margin: 0 8px;
+    font-weight: 700;
+    line-height: 46px;
+}
+.back .between1 header .logo {
+    float: left;
+    font-size: 18px;
+}
+.back .between1 h5 {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 400;
+    color: black;
+}
+.back .between1 h4 {
+    margin-top: 62px;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 200;
+    color: white;
+}
+.back .between1 a span {
+    display: inline-block;
+    margin-top: 36px;
+    width: 100px;
+    height: 40px;
+    border: 3px #efbfbf solid;
+    border-radius: 2px;
+    font-size: 18px;
+    line-height: 40px;
+    color: #efbfbf;
+}
+article {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 74px;
+    width: 1024px;
+    height: 302px;
+}
+article span {
+    height: 151px;
+    width: 502px;
+    font-size: 18px;
+    color: #aaa;
+    line-height: 1.4em;
+}
+article .blank {
+    width: 20px;
+    height: 151px;
+}
+article span h3 {
+    margin-bottom: 15px;
+    color: black;
+    font-size: 30px;
+    font-weight: 200;
+}
+footer {
+    text-align: center;
+    height: 80px;
+    border-top: #aaa 2px solid;
+}
+footer .log {
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
